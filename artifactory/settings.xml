@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username></username>
-      <password></password>
+      <username>deployer</username>
+      <password>AP7TqDxw4w8fq43UiY8FGR2PW9s</password>
       <id>central</id>
     </server>
     <server>
-      <username></username>
-      <password></password>
+      <username>deployer</username>
+      <password>AP7TqDxw4w8fq43UiY8FGR2PW9s</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -22,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://artifactory-service:8081/artifactory/libs-release</url>
+          <url>https://vamsidvk2018.jfrog.io/vamsidvk2018/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://artifactory-service:8081/artifactory/libs-snapshot</url>
+          <url>https://vamsidvk2018.jfrog.io/vamsidvk2018/libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://artifactory-service:8081/artifactory/libs-release</url>
+          <url>https://vamsidvk2018.jfrog.io/vamsidvk2018/libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://artifactory-service:8081/artifactory/libs-snapshot</url>
+          <url>https://vamsidvk2018.jfrog.io/vamsidvk2018/libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
